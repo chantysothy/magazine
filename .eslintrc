@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "react-app",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "semi": "error",
+    "keyword-spacing": ["error", { "before": true }],
+    "object-curly-spacing": ["warn", "always"]
+  }
+}
